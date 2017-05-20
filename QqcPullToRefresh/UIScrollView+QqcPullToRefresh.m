@@ -9,6 +9,7 @@
 
 #import <QuartzCore/QuartzCore.h>
 #import "UIScrollView+QqcPullToRefresh.h"
+#import "NSString+Qqc.h"
 
 //fequal() and fequalzro() from http://stackoverflow.com/a/1614761/184130
 #define fequal(a,b) (fabs((a) - (b)) < FLT_EPSILON)
