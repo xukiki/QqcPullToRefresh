@@ -6,11 +6,13 @@ Pod::Spec.new do |s|
   s.requires_arc  = true
 
   s.name         = "QqcPullToRefresh"
-  s.version      = "1.0.8"
+  s.version      = "1.0.10"
   s.summary      = "QqcPullToRefresh"
   s.homepage     = "https://github.com/xukiki/QqcPullToRefresh"
   s.source       = { :git => "https://github.com/xukiki/QqcPullToRefresh.git", :tag => "#{s.version}" }
   
   s.source_files  = ["QqcPullToRefresh/*.{h,m}"]
+
+  s.dependency "NSString-Qqc"
   
 end
